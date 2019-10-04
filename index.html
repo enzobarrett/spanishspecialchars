@@ -6,6 +6,77 @@
     <title>Title</title>
 </head>
 
-<body>
-<h2>á</h2><h2>é</h2><h2>í</h2><h2>ó</h2><h2>ú</h2><h2>ñ</h2><h2>¿</h2><h2>¡</h2>
+<button onclick="copyFunction1()">á</button>
+<button onclick="copyFunction2()">é</button>
+<button onclick="copyFunction3()">í</button>
+<button onclick="copyFunction4()">ó</button>
+<button onclick="copyFunction5()">ú</button>
+<button onclick="copyFunction6()">ñ</button>
+<button onclick="copyFunction7()">¿</button>
+<button onclick="copyFunction8()">¡</button>
+<textarea rows="1" cols="1" id="text">
+ñ
+</textarea>
+
+<script>
+function copyFunction1() {
+  document.getElementById("text").value = "á";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction2() {
+  document.getElementById("text").value = "é";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction3() {
+  document.getElementById("text").value = "í";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction4() {
+  document.getElementById("text").value = "ó";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction5() {
+  document.getElementById("text").value = "ú";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction6() {
+  document.getElementById("text").value = "ñ";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction7() {
+  document.getElementById("text").value = "¿";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+function copyFunction8() {
+  document.getElementById("text").value = "¡";
+  var copyText = document.getElementById("text");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+}
+
+</script>
+
 </body>
+</html>
